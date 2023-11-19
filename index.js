@@ -76,7 +76,7 @@ function displayProducts(productList = products) {
         productElement.className = 'product';
 
         productElement.innerHTML = `
-            <img src="pencil.jpg" alt="${product.image}">
+            <img src="pencil.jpg" alt="${product.name}">
             <h2>${product.name}</h2>
             <p>${product.category}</p>
             <p>Price: ₹${product.price}</p>
