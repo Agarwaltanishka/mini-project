@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Stationery Store</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo">
+            <div id="search">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Search for products">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">help</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="products container">
+        <!-- Product listing dynamically generated using JavaScript -->
+    </section>
+
+    <section id="cart" class="container">
+        <h2>Your Shopping Cart</h2>
+        <ul id="cart-items">
+            <!-- Cart items will be displayed here dynamically -->
+        </ul>
+        <p id="total-price">Total Price: ₹0.00</p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Stationery Store</p>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
